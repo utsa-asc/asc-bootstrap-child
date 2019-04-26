@@ -1,0 +1,31 @@
+# Ignore sass cache files
+.sass-cache
+.sass-cache/
+.sass-cache/*
+.sass-cache/**/*.scssc
+
+styles/.sass-cache
+styles/.sass-cache/
+styles/.sass-cache/*
+styles/.sass-cache/**/*.scssc
+
+# Ignore npm modules and built/generated assets
+node_modules
+dist
+npm-debug.log
+
+
+# Ignore IDE generated stuff
+*.codekit
+config.codekit
+.vscode/*
+.vscode/settings.json
+
+# Ignore locally generated css files
+app/css/**/*.css
+
+# Ignore statically saved components
+app/_files/components
+
+# Let's not add huge media files to the repo
+*.mp4

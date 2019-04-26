@@ -1,0 +1,203 @@
+// Variables
+//
+// Use this file to override the Bootstrap defaults
+// without modifying key, versioned files.
+
+
+// Table of Contents
+//
+// Colors
+// Options
+// Spacing
+// Body
+// Links
+// Grid breakpoints
+// Grid containers
+// Grid columns
+// Fonts
+// Components
+
+// General variable structure
+//
+// Variable format should follow the `$component-modifier-state-property` order.
+
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+$blue-dark:                   #0c2340;
+$utsa-blue:                   #0c2340;
+$blue-dark-alt:               #001641;
+$blue-dark-alt-2:             #0026AD;
+$blue-med:                    #002a5c;
+$blue-light:                  #0088dd;
+$orange:                      #f15a22;
+$utsa-orange:                 #f15a22;
+$orange-med:                  #f47321;
+$white:                       #fff;
+$gray:                        #cdcdcd;
+$dark-gray:                   #3f3f3f;
+//$gray-dark:                 #373a3c !default;
+//$gray:                      #55595c !default;
+//$gray-light:                #818a91 !default;
+//$gray-lighter:              #eceeef !default;
+//$gray-lightest:             #f7f7f9 !default;
+
+$brand-primary:               $utsa-blue;
+$primary:                      $utsa-blue;
+
+//$brand-success:             #5cb85c !default;
+//$brand-info:                #5bc0de !default;
+//$brand-warning:             #f0ad4e !default;
+//$brand-danger:              #d9534f !default;
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-rounded:            false;
+//$enable-flex:               true;
+//$enable-rounded:            true !default;
+$enable-shadows:            true;
+//$enable-gradients:          false !default;
+//$enable-transitions:        false !default;
+//$enable-hover-media-query:  false !default;
+//$enable-grid-classes:       true !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                 #0275d3;
+$link-decoration:            none;
+$link-hover-color:           #014c8c;
+//darken($link-color, 15%) !default;
+$link-hover-decoration:      underline;
+
+
+// Grid breakpoints
+//
+// Define the minimum and maximum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+/*
+$grid-breakpoints: (
+//  // Extra small screen / phone
+//  xs: 0,
+//  // Small screen / phone
+sm: 400px,
+//  // Medium screen / tablet
+md: 700px,
+//  // Large screen / desktop
+lg: 900px,
+//  // Extra large screen / wide desktop
+xl: 1000px
+) ;
+*/
+
+/* utsa-max breakpoints for global header behavior */
+$utsa-max-xl: 1000px;
+$utsa-max-lg: 900px;
+$utsa-max-md: 876px;
+$utsa-max-sm: 700px;
+$utsa-max-xs: 575px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 575px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) ;
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+sm: 100%,
+md: 95%,
+lg: 980px,
+xl: 1170px
+) ;
+
+
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+//$font-family-sans-serif:     "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+//$font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
+//$font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
+//$font-family-base:           $font-family-sans-serif !default;
+
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+//$font-size-root:             16px !default;
+
+//$font-size-base:             1rem !default;
+//$font-size-lg:               1.25rem !default;
+//$font-size-sm:               .875rem !default;
+//$font-size-xs:               .75rem !default;
+
+$font-size-h1:               2rem;
+$font-size-h2:               1.55rem;
+$font-size-h3:               1.25rem;
+$font-size-h4:               1.15rem;
+$font-size-h5:               1rem;
+$font-size-h6:               0.9rem;
+
+
+$border-radius:          0px;
+$border-radius-lg:       0px;
+$border-radius-sm:       0px;
+
+// Buttons
+
+$btn-primary-color:                $blue-dark;
+$btn-primary-bg:                   $blue-dark;
+$btn-primary-border:               $blue-dark;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:                .2rem;
+
+
+// Navbar
+
+$navbar-border-radius:              $border-radius;
+
+$navbar-dark-hover-color:           $orange;
+$navbar-dark-color:                 rgba(255,255,255,1);
+
+
+
+// Modals
+
+// Padding applied to the modal body
+$modal-inner-padding:         8px;
+// !default;
+
+$modal-title-padding:         8px;
+
+
+$slick-font-path: "/_files/components/slick-carousel/slick/fonts/";
+$slick-loader-path: "/_files/components/slick-carousel/slick/";
+$slick-dot-color: $blue-dark;
+$slick-dot-color-active: $orange;
+$slick-dot-size: 12px;
+$slick-opacity-not-active: 0.55;
+$slick-opacity-default: 1;
+
+//$fa-font-path:        "/_files/components/font-awesome/fonts";
+$fa-font-path:        "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts";
+$fa-font-size-base:   14px !default;
+$fa-line-height-base: 1 !default;
+//$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.6.3/fonts" !default; // for referencing Bootstrap CDN font files directly
+$fa-css-prefix:       fa !default;
+$fa-version:          "4.7.0" !default;
+$fa-border-color:     #eee !default;
+$fa-inverse:          #fff !default;
+$fa-li-width:         (30em / 14) !default;

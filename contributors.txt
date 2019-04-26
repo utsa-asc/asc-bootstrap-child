@@ -1,0 +1,19 @@
+Original elements from:
+<!--
+	Retrospect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+
+<!--
+  UTSA Bootstrap files by UTSA UCM
+-->
+ericramz <eric.ramirez3@utsa.edu>
+garza <john.garza@utsa.edu>
+
+
+<!--
+  Refactoring and design by VPAA ASC (Academic Strategic Communications)
+-->
+
+garza <john.garza@utsa.edu>  

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Required meta tags always come first-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Standard Global Header | UTSA | University of Texas at San Antonio</title>
+    <!--build:css /_files/css/global.min-092017.css-->
+    <link rel="stylesheet" href="../css/app.css">
+    <!--endbuild-->
+    <link rel="stylesheet" href="../seed/css/site.css" media="screen" />
+  </head>
+  <body>
+    <!-- not currently activated -->
+    <!--    ###include virtual="/inc-share/analytics/analytics.js"###     -->
+    <!--#include virtual="/_files/global-header-092017.html" -->
+
+  <section id="site-top" class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="site-top-Title">
+          <a href="/examples/index.html">Global Header Responsive Standards</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="min-height:90vh;" class="site-content container">
+  <div class="row">
+  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" >
+    <!--
+    Sidebar Navigation
+    -->
+    <div id="col-navigation">
+      <div class="nav-gray">
+        <ul>
+          <li class="">Global Header Standards
+            <ul style="padding-top:0.75rem;">
+              <li><a class="selected" href="index.html">Standard Header</a></li>
+              <li><a href="minified-header.html">Minified Header</a></li>
+              <li><a href="logo-only-header.html">Logo Only Header</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul>
+          <li class="">Global Footer Standards
+            <ul style="padding-top:0.75rem;">
+              <li><a href="footer.html">Standard Footer</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-9 col-md-9 col-lg-6">
+
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Standard Header</h2>
+        <p>This page is using the standard UTSA global header.</p>
+        <h3>General Guidelines</h3>
+        <p>UTSA global headers are designed to give a consistent branded identity to sites owned and operated by UTSA.
+          Content above the orange line should be considered off-limits to site specific content.
+        </p>
+        <p>Site specific branding should appear below the orange line to convery a common user experience to all UTSA web users.</p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="orangetext">Desktop Size, min-width: 1100px</h3>
+        <p>Please note the full UTSA wordmark is used at widths over 1100px on a UTSA blue (#0c2340) background with a maximum width of 320px.</p>
+      </div>
+
+      <div class="col-md-1"></div>
+      <div class="col-md-11" style="padding:1.1rem;background:#0c2340;">
+        <img alt="UTSA Full Logo" id="logoFull" class="col-md" src="https://www.utsa.edu/_files/images/logo4.png">
+      </div>
+    </div>
+    <br/>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p>Global top right navigation icons are displayed with text.  Icons are colored UTSA orange (#f15a22)</p>
+
+        <ul>
+            <li>
+              <a href="http://my.utsa.edu">MyUTSA</a> - http://my.utsa.edu
+              <ul>
+                <li>uses the FontAwesome.io icon: <a href="http://fontawesome.io/icon/globe/"><i aria-hidden="true" class="fa fa-globe orangetext">&#160;</i> globe</a></li>
+                <li>note this is not a HTTPS enabled site</li>
+                <li>this is the most viewed page on campus, utilized by all students and staff</li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://www.utsa.edu/today">UTSA Today</a> - https://www.utsa.edu/today/
+              <ul>
+                <li>uses the FontAwesome.io icon: <a href="http://fontawesome.io/icon/newspaper-o/"><i aria-hidden="true" class="fa fa-newspaper-o orangetext">&#160;</i> newspaper-o</a></li>
+                <li>this is the official news channel for UTSA</li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://www.utsa.edu/visit/">Visit</a> - https://www.utsa.edu/visit/
+              <ul>
+                <li>uses the FontAwesome.io icon: <a href="http://fontawesome.io/icon/map-o/"><i aria-hidden="true" class="fa fa-map-o orangetext">&#160;</i> map-o</a>
+                <li>this page provides information on visiting campus as well as links to campus maps and parking information</li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://www.utsa.edu/directory/">Directory</a> - https://www.utsa.edu/directory/
+              <ul>
+                <li>uses the FontAwesome.io icon: <a href="http://fontawesome.io/icon/users/"><i aria-hidden="true" class="fa fa-users orangetext">&#160;</i> users</a></li>
+                <li>this is the campus office and staff directory</li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Search</a> - UTSA google search console
+              <ul>
+                <li>uses the FontAwesome.io icon: <a href="http://fontawesome.io/icon/users/"><i aria-hidden="true" class="fa fa-search orangetext">&#160;</i> search</a></li>
+                <li>this has a default href value of #</li>
+                <li>javascript (via jquery) is used to toggle a search form via link click, <a href="https://www.utsa.edu/_files/js/search.js">click here for example code</a></li>
+                <li>the search form is used to perform a global search of <em>all</em> UTSA sites via the google search console:</li>
+              </ul>
+            </li>
+          </ul>
+
+      </div>
+      <div class="col-sm-1"></div>
+
+      <div class="col-sm-11" style="padding:1.1rem;background:#0c2340;">
+            <section class="headerSearchContainer" style="display:block!important;">
+              <div class="container">
+                <form action="/search/searchresults.html" id="cse-search-box">
+                  <input name="cx" type="hidden" value="000238266656426684962:mzli4pte7ko"/>
+                  <input name="cof" type="hidden" value="FORID:11"/>
+                  <span style="display: none;">
+                    <label for="q">Search</label>
+                  </span>
+                  <span class="wrapper" style="margin-bottom: 0;">
+                    <input class="searchfield" id="q" name="q" onblur="if (this.value == '') {this.value = 'Search UTSA';}" onfocus="if (this.value == 'Search UTSA') {this.value = '';}" size="15" type="text" value="Search UTSA"/>
+                  </span>
+                </form>
+              </div>
+            </section>
+        </div>
+    </div>
+    <br/>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p>Required Top Level links:</p>
+          <ul>
+            <li >
+              <a   href="https://www.utsa.edu/about/">About - https://www.utsa.edu/about/</a>
+            </li>
+            <li >
+              <a   href="https://www.utsa.edu/admissions/">Admissions - https://www.utsa.edu/admissions/</a>
+            </li>
+            <li >
+              <a   href="https://www.utsa.edu/academics/">Academics - https://www.utsa.edu/academics/</a>
+            </li>
+            <li >
+              <a   href="http://research.utsa.edu">Research - https://research.utsa.edu/</a>
+            </li>
+            <li >
+              <a   href="https://www.utsa.edu/campuslife/">Campus Life - https://www.utsa.edu/campuslife/</a>
+            </li>
+            <li >
+              <a   href="https://www.utsa.edu/community/">Community - https://www.utsa.edu/community/</a>
+            </li>
+            <li >
+              <a   href="http://goutsa.com">Athletics - http://goutsa.com</a>
+            </li>
+            <li >
+              <a   href="http://alumni.utsa.edu">Alumni - https://alumni.utsa.edu/</a>
+            </li>
+            <li class=" bottom-">
+              <a   href="http://giving.utsa.edu">Giving - https://giving.utsa.edu</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <br/>
+
+    <div class="row" style="margin-top:2.0rem">
+      <div class="col-md-12">
+        <h3 class="orangetext">Small Desktop Size, max-width: 1100px and min-width: 876px</h3>
+        <p>At this breakpoint the UTSA logo switches to the smaller logo-only version with a maximum displayed width of 110px:
+      </div>
+
+      <div class="col-sm-1"></div>
+      <div class="col-sm-11" style="padding:1.1rem;background:#0c2340;">
+        <img alt="UTSA" id="logoSmall" class="" src="/_files/images/logo4_sm.png" style="width:110px!important">
+      </div>
+
+      <div class="col-md-12">
+        Please note, this is the only change to the elements in the global header.  Global top right navigation icons are still displayed with their text labels.  Required Top Level links are still displayed.
+      </div>
+    </div>
+    <br/>
+
+    <div class="row" style="margin-top:2.0rem">
+      <div class="col-md-12">
+        <h3 class="orangetext">Tablet Size, max-width: 876px and min-width: 768px</h3>
+        <p>At this breakpoint the UTSA logo has a maximum displayed width of 80px:
+      </div>
+
+      <div class="col-sm-1"></div>
+      <div class="col-sm-11" style="padding:1.1rem;background:#0c2340;">
+        <img alt="UTSA" id="logoSmall" class="" src="/_files/images/logo4_sm.png" style="width:80px!important;" >
+      </div>
+    </div>
+    <br/>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p>
+        Global top right navigation text labels become hidden and the top level links are placed in a mobile menu white icon to the right of the top level search icon:
+        </p>
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-11" style="padding:1.2rem;background:#0c2340;">
+  			<nav id="icon-bar" class="nav nav-inline text-right float-right float-lg-none justify-content-end">
+      				<a aria-label="my.utsa.edu" class="nav-link top-link" data-label="global-header" href="http://my.utsa.edu">
+      					<i aria-hidden="true" class="fa fa-globe orangetext">&#160;</i>
+      					<span class="linkmobile d-none"> myUTSA </span>
+      				</a>
+      				<a aria-label="UTSA Today" class="nav-link top-link" data-label="global-header" href="/today">
+      					<i aria-hidden="true" class="fa fa-newspaper-o orangetext">&#160;</i>
+      					<span class="linkmobile d-none"> UTSA Today </span>
+      				</a>
+      				<a aria-label="Visit UTSA" class="nav-link top-link" data-label="global-header" href="/visit">
+      					<i aria-hidden="true" class="fa fa-map-o orangetext">&#160;</i>
+      					<span class="linkmobile d-none">Visit </span>
+      				</a>
+      				<a aria-label="UTSA Directory" class="nav-link top-link" data-label="global-header" href="/directory">
+      					<i aria-hidden="true" class="fa fa-users orangetext">&#160;</i>
+      					<span class="linkmobile d-none"> Directory </span>
+      				</a>
+      				<a aria-label="Search UTSA" class="nav-link top-link" data-label="global-header" href="#" id="headerSearchCTA">
+      					<i aria-hidden="true" class="fa fa-search orangetext">&#160;</i>
+      					<span class="linkmobile d-none"> Search </span>
+      				</a>
+
+      				<!-- hidden-lg-up float-xs-right -->
+      				<button class="navbar-toggler d-inline justify-content-end" data-label="global-header-burger" data-target="#startupNavbar" data-toggle="collapse" style="margin-top: -4px !important;" type="button">
+      					<span class="sr-only">Toggle navigation</span>
+      					<span class="icon-bar"></span>
+      					<span class="icon-bar"></span>
+      					<span class="icon-bar"></span>
+      				</button>
+      			</nav>
+      </div>
+
+    </div>
+    <br/>
+
+    <div class="row container">
+      <div class="row" style="margin-top:2.0rem">
+        <div class="col-md-12">
+          <h3 class="orangetext">Breakpoints below 768px</h3>
+          <p>No other changes are made to the global header below 768px. Items to note:</p>
+          <ul>
+            <li>The UTSA logo should not be smaller than a width of 80px.</li>
+            <li>The UTSA logo should always be text aligned left.</li>
+            <li>The top right icons should stay at their default 1x size (~14.6 px)</li>
+            <li>The top right icons should always be text aligned right, not centered to avoid touching the UTSA logo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <br/><br/>
+  </section>
+
+    <!--#include virtual="/_files/global-footer.html" -->
+    <!--Scripts-->
+    <!--build:js /_files/js/global-092017.min.js-->
+    <script src="../js/typekit.js"></script>
+    <script src="../_files/components/jquery/dist/jquery.min.js"></script>
+    <script src="../_files/components/slick-carousel/slick/slick.min.js"></script>
+    <script src="../_files/components/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../_files/components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <!--endbuild-->
+  </body>
+</html>
