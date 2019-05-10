@@ -31,11 +31,11 @@
 // Palette.
 	$palette: (
 		bg:					#fff,
-		fg:					#777,
+		fg:					#212529,
 		fg-bold:			#25383B,
 		fg-light:			#999,
 		highlight:			$utsa-orange,
-		highlight-alt: 		$utsa-orange,
+		highlight-alt: 		$utsa-blue,
 		border:				rgba(144,144,144,0.25),
 		border-bg:			rgba(144,144,144,0.075),
 		border2:			rgba(144,144,144,0.5),
@@ -43,10 +43,10 @@
 
 		accent1: (
 			bg:				#EEE,
-			fg:				#777,
-			fg-bold:		#555,
+			fg:				#212529,
+			fg-bold:		$utsa-blue,
 			fg-light:		#bbb,
-			highlight:		$utsa-orange,
+			highlight:		#FFF,
 			highlight-alt: 	$utsa-orange,
 			border:			rgba(144,144,144,0.25),
 			border-bg:		#fff,
@@ -55,15 +55,28 @@
 		),
 
 		accent2: (
-			bg:				#1E2832,
-			fg:				rgba(#fff, 0.75),
-			fg-bold:		#fff,
-			fg-light:		mix(#1E2832, #ffffff, 40%),
-			highlight:		$utsa-orange,
-			highlight-alt: 	#fff,
-			border:			transparent,
-			border-bg:		rgba(255,255,255,0.05),
-			border2:		rgba(255,255,255,0.5),
-			border2-bg:		rgba(255,255,255,0.1)
+		bg:	#EEE,
+		fg:				#212529,
+		fg-bold:		$utsa-blue,
+		fg-light:		#bbb,
+		highlight:		$utsa-blue,
+		highlight-alt: 	$utsa-orange,
+		border:			rgba(144,144,144,0.25),
+		border-bg:		#fff,
+		border2:		rgba(144,144,144,0.5),
+		border2-bg:		rgba(144,144,144,0.2),
+		),
+
+		accent3: (
+		bg:				#000,
+		fg:				#212529,
+		fg-bold:		#FFF,
+		fg-light:		#bbb,
+		highlight:		$utsa-blue,
+		highlight-alt: 	$utsa-orange,
+		border:			rgba(144,144,144,0.25),
+		border-bg:		#000,
+		border2:		rgba(144,144,144,0.5),
+		border2-bg:		rgba(144,144,144,0.2),
 		)
 	);

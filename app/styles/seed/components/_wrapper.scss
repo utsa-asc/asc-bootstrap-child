@@ -11,13 +11,6 @@
 /* Wrapper */
 
 	.wrapper {
-		@include padding(8em, 0);
-		position: relative;
-
-		> .inner {
-			margin: 0 auto;
-			width: 70em;
-		}
 
 		&.style1 {
 			@include color(accent1);
@@ -28,33 +21,15 @@
 		}
 
 		&.style3 {
-			@include color(accent2);
+			@include color(accent3);
 			background-attachment: fixed;
-			background-image: url('/mockup/images/overlay.png'), url('/mockup/images/pic11.jpg');
 			background-size: cover;
+
 		}
-
-		@include breakpoint(large) {
-			@include padding(6em, 0);
-
-			> .inner {
-				width: 65em;
-			}
-		}
-
-		@include breakpoint(medium) {
-			@include padding(5em, 3em);
-
-			> .inner {
-				width: 100%;
-			}
-		}
-
-		@include breakpoint(small) {
-			@include padding(3em, 2em);
-		}
-
-		@include breakpoint(xsmall) {
-			@include padding(2em, 1em);
+		.tint {
+			z-index: 1;
+			height: 100%;
+			width: 100%;
+			background: rgba(12,35,64, 0.7);
 		}
 	}

@@ -18,28 +18,7 @@
 		xsmall: '(max-width: 480px)'
 	));
 
-	@include skel-layout((
-		reset: 'none',
-		boxModel: 'border',
-		containers: 80em,
-		grid: ( gutters: 2em ),
-		breakpoints: (
-			large: (
-				containers: 65em,
-				grid: ( gutters: 1.5em )
-			),
-			medium: (
-				containers: (90%, true)
-			),
-			small: (
-				small: (90%, true),
-				grid: ( gutters: 1.25em )
-			)
-		)
-	));
-
 // Base.
-	@import 'base/page';
 	@import 'base/typography';
 // Component.
 	@import 'components/section';
@@ -53,6 +32,7 @@
 	@import 'components/feature';
 	@import 'components/image-grid';
 	@import 'components/wrapper';
+	@import 'components/tint_bg';
 // Layout.
 //	@import 'layout/header';
 	@import 'layout/nav';
