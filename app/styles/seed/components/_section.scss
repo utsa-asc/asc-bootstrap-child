@@ -20,11 +20,12 @@
 		p {
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 			position: relative;
-			text-transform: uppercase;
+			font-size: 1.5em;
+			//text-transform: uppercase;
 		}
 
 		h2 + p {
-			font-size: 1.25em;
+			font-size: 1.5em;
 			margin-top: (_size(element-margin) * -0.5);
 			line-height: 1.85em;
 		}
@@ -41,14 +42,6 @@
 			font-size: 0.9em;
 			margin-top: (_size(element-margin) * -0.3);
 			line-height: 1.5em;
-		}
-
-		&.major {
-			margin-bottom: (_size(element-margin) * 2);
-
-			h2 {
-				font-size: 2.5em;
-			}
 		}
 
 		&.narrow {

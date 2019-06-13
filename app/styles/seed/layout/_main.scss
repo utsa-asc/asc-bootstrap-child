@@ -25,3 +25,42 @@
 			@include padding(2em, 0);
 		}
 	}
+
+ .head-wrapper {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+		vertical-align: middle;
+}
+
+blockquote {
+  quotes: "“" "”" "‘" "’";
+}
+
+blockquote:before {
+	color: #0c2340;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+blockquote:after {
+	color: #0c2340;
+	content: close-quote;
+	font-size: 4em;
+	line-height: 0.75em;
+	float:right;
+	vertical-align: 0em;
+}
+
+.blockquote-footer {
+	font-style:italic;
+	font-weight:800;
+	font-size:1.1em;
+	color:#000;
+}
