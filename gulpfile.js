@@ -17,7 +17,7 @@ var src = {
     scss_dir: ['app/styles/**/*.scss'],
     css:  '{app/css/*.css,app/**/css/*.css}',
     html: ['app/*.html',
-      'app/mockup/*.html'],
+      'app/basket/*.html'],
     js: ['app/js/*.js',
       'app/core/assets/js/*.js']
 };
