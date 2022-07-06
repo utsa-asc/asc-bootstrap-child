@@ -38,7 +38,7 @@
     "popper": "^1.0.1",
     "popper.js": "^1.14.7",
     "promise-polyfill": "7.1.2",
-    "select2": "^4.0.6-rc.1",
+    "select2": "^4.0.6",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
